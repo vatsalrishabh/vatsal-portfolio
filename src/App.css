@@ -40,7 +40,28 @@ width: 25%;
       background-color:white;
       border-radius: 50%; /* This makes the element a circle */
 }
-
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.Particle{
+  display: flex;
+}
+.Particle-left{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.Particle-right{
+  width: 50%;
+}
+.h1red{
+  color:#cf1b1b;
+  padding-left:15px;
+}
+.Particle-autocomplete{
+  color: white;
+}
+.particle-h1-flex{
+  display: flex;
+}
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
 .nav-right{
   display: flex;
