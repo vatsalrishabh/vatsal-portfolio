@@ -1,38 +1,194 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+  bottom: 0;
+}
+.body{
+  font-family:"Poppins", sans-serif;;
+  background-color: black;
+}
+#particles-js{
+  /* height: 100vh; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* //////////////////////////////////////////////////////////////////////// */
+.navbar{
+  background-color: #1f1f1f;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  height: 65px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.nav-left{
+display: flex;
+justify-content: center; /*horizontal center */
+align-items: center; /*certical center */
+width: 25%;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.nav-center{
+display: flex;
+justify-content: center; /*horizontal center */
+align-items: center; /*certical center */
+width: 25%;
+}
+.nav-center-circle{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+      width: 45px;
+      height: 45px;
+      background-color:white;
+      border-radius: 50%; /* This makes the element a circle */
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.nav-right{
+  display: flex;
+  justify-content: space-around; /*horizontal center */
+align-items: center; /*certical center */
+  color: white;
+  width: 50%;
+}
+.bottom-border-red{
+  padding: 10px 0;
+}
+.bottom-border-red:hover{
+  border-bottom: 2px solid #cf1b1b;
+}
+.bottom-border-red.active {
+  border-bottom: 2px solid #cf1b1b;
+}
+
+
+
+
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.left-particle{
+  width: 50%;
+  height: 300px;
+ background-color: #cf1b1b;
+}
+.right-particle{
+  width: 50%;
+  height: 300px;
+ background-color:green;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+.about-heading{
+  display: flex;
+  justify-content: center;
+  color: #cf1b1b;
+  align-items: center;
+  text-decoration: underline;
+}
+.about-bottom{
+  display: flex;
+}
+.about-bottom-left{
+  width: 50%;
+  padding: 50px;
+}
+.about-bottom-right{
+  width: 50%;
+  padding: 50px;
+  font-weight: 400;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.Skills-heading{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.Skills-heading h1{
+  text-align: center;
+  justify-content: center;
+  color: #cf1b1b;
+  text-decoration: underline;
+}
+.Skills-bottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Skills-bottom table tr{
+color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+table{
+  width: 700px;
+}
+td{
+  border-bottom: 4px solid #cf1b1b;
+  padding: 15px;
+text-align: center;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+#Project{
+  padding-top:  130px;
+}
+
+.Project-heading{
+  display: flex;
+  color: #cf1b1b;
+  align-items: center;
+  justify-content: center;
+  text-decoration: underline;
+}
+
+.Project-bottom{
+  display: flex;
+  justify-content: center;
+}
+
+.Project-bottom button{
+  
+
+  background: #cf1b1b;
+  color: white;
+  height: 50px;
+  width: 200px;
+  border: none;
+  border-radius: 20px;
+  font-size: x-large;
+  font-weight: 600;
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+#Work{
+  padding-top: 130px;
+}
+.Work-heading h1{
+  color: #cf1b1b;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+#Contact{
+  padding-top: 130px;
+}
+.Contact-heading h1{
+  color: #cf1b1b;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
+.Contact-middle{
+  justify-content: center;
+  display: flex;
+}
+.Contact-last{
+  background: #14191b;
+  height: 240px;
+  color: white;
+  text-align: center;
+  padding: 30px;
 }
