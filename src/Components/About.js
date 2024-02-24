@@ -11,9 +11,10 @@ const About = () => {
         </div>
         <div className="about-bottom">
             <div className="about-bottom-left">
-                <img src="..." alt="one nice image"/>
+                <img src="https://miro.medium.com/v2/resize:fit:679/0*ooLD04Ko6rjQH9dx" alt="one nice image"/>
             </div>
             <div className="about-bottom-right">
+                <h2>Hello,</h2>
                 <h3 >Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident facere repellat rerum dolores quidem vel tempore deleniti, architecto eveniet nesciunt eius perspiciatis praesentium placeat, et ex amet, odio reiciendis nulla!</h3>
             </div>
         </div>

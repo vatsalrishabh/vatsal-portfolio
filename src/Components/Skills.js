@@ -12,7 +12,7 @@ const Skills = () => {
         <table>
           <tbody>
             <tr>
-              <td><div className="space-btn-border">Node.js</div></td>
+              <td><div className="space-btn-border"><x-fab-node-js />Node.js</div></td>
               <td><div className="space-btn-border">React.js</div></td>
             </tr>
             <tr>

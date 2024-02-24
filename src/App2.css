@@ -1,0 +1,30 @@
+/* making it responsive css */
+
+@media only screen and (max-width: 600px) {
+   
+  
+   
+  
+    .nav-right h3{
+        display: none;
+    }
+    .nav-right .dropdown{
+        display: block;
+        }
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.Work-web{
+    height: 200px;
+    width: 320px;
+    padding: 10px;
+  }
+  .Work-web a img{
+    height: 200px;
+    width: 320px;
+  }
+  #Work{
+    padding-top: 130px;
+    padding: 0px;
+  }
+
+  }

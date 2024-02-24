@@ -25,7 +25,7 @@ const Particle = () => {
           </div>
     </div>
     <div className='Particle-right'>
-     <img src='' alt='dpp'/>
+     <img src='https://media.istockphoto.com/id/518430830/photo/mr-nice-guy.jpg?s=1024x1024&w=is&k=20&c=-tmpE43koPiNHSRz0rJL4272E6G4Gg2iGXeUYXx0xyI=' alt='dpp'/>
     </div>
   </div>
     

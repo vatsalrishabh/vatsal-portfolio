@@ -1,4 +1,5 @@
 import './App.css';
+import './App2.css';
 import About from './Components/About';
 import Contact from './Components/Contact';
 import Navbar from './Components/Navbar';
