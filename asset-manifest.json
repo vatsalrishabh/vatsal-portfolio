@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/vatsal-port/static/css/main.e7229169.css",
+    "main.js": "/vatsal-port/static/js/main.2501e8ce.js",
+    "static/js/453.bd59d317.chunk.js": "/vatsal-port/static/js/453.bd59d317.chunk.js",
+    "static/media/logo.png": "/vatsal-port/static/media/logo.977759e3bec7fccb3b41.png",
+    "index.html": "/vatsal-port/index.html",
+    "main.e7229169.css.map": "/vatsal-port/static/css/main.e7229169.css.map",
+    "main.2501e8ce.js.map": "/vatsal-port/static/js/main.2501e8ce.js.map",
+    "453.bd59d317.chunk.js.map": "/vatsal-port/static/js/453.bd59d317.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7229169.css",
+    "static/js/main.2501e8ce.js"
+  ]
+}
