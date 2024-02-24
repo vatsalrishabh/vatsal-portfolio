@@ -194,15 +194,24 @@ text-align: center;
 #Contact{
   padding-top: 130px;
 }
-.Contact-heading h1{
-  color: #cf1b1b;
+.Contact-heading{
   display: flex;
   justify-content: center;
-  text-decoration: underline;
+  padding-bottom: 60px;
+}
+
+.Contact-heading h1{
+  color: #cf1b1b;
+  display: inline;
+border-bottom: 4px solid #cf1b1b;
+  padding-bottom: 8px;
 }
 .Contact-middle{
   justify-content: center;
   display: flex;
+}
+.Contact-middle-message input{
+  height: 280px;
 }
 .Contact-last{
   background: #14191b;
@@ -241,6 +250,9 @@ form input{
     border-radius: 8px;
     border: none;
     padding-left: 10px;
+}
+input:focus{
+    outline: none; /* Hide the bottom border when focused */
 }
 form button{
   color: white;
